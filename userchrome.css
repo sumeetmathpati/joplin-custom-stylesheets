@@ -1,0 +1,76 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+.note-list .list-item:hover {
+
+}
+
+
+/* Notesbooks & Tags Side Bar */ 
+
+.side-bar {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.side-bar > div {
+    
+}
+
+.side-bar .list-item-container,
+.side-bar .list-item-container a,  /* folder expander */
+.side-bar .list-item,
+.side-bar .list-item div /* number of notes in notebook */
+ {
+    
+ }
+
+.side-bar .list-item:hover {
+    
+}
+
+.side-bar .list-item-container:hover *
+{
+    
+}
+
+.side-bar div[toggleblock="1"], /* Notebooks and Tags headers */
+.side-bar .synchronize-button {
+    
+    font-size: 0.9rem !important;
+}
+
+.side-bar div div /* synchronization message */
+{
+    
+}
+
+.side-bar .list-item:active {
+    
+}
+
+.side-bar a.list-item:focus
+ {
+     
+}
+
+/*  NOTE LIST */
+
+.note-list > div,
+.note-list > div > a 
+ {
+     
+    font-size: 0.7rem !important;
+}
+
+.note-list > div:hover,
+.note-list a.list-item:hover
+ {
+     
+}
+
+.note-list > div > a:focus,
+.note-list a.list-item:focus
+ {
+   background-color: black !important;
+   color: white !important;
+}
